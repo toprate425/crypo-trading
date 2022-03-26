@@ -464,7 +464,7 @@ function Exchange() {
                             not ready
                           </Tab>
                         </Tabs>
-                        <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">A limit order is an order to buy or sell at a specific price or better. Limit orders are not guaranteed to execute. <br/><a style={{}}>Learn More</a></Tooltip>}>
+                        <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">A limit order is an order to buy or sell at a specific price or better. Limit orders are not guaranteed to execute. <br/><a href="/">Learn More</a></Tooltip>}>
                           <span className="d-inline-block" style={{ position: 'absolute', top: 25, right: 12, cursor: 'pointer' }}>
                             <button disabled style={{ pointerEvents: 'none', background: 'transparent' }}>
                               <svg style={iconWrapper} xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="css-1txptiw"><path d="M12 9a1 1 0 100-2 1 1 0 100 2zm0 8a1 1 0 001-1v-5a1 1 0 10-2 0v5a1 1 0 001 1z"></path><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-2 0a8 8 0 10-16 0 8 8 0 0016 0z" clipRule="evenodd"></path></svg>
